@@ -5,7 +5,7 @@
  * This program the distance using a sonar
 */
 
-let distance = 5
+let distance = 0
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 basic.showNumber(distance)
