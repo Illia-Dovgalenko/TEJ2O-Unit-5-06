@@ -5,6 +5,8 @@
  * This program the distance using a sonar
 */
 
+
+// setup
 let distance = 0
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
@@ -16,6 +18,10 @@ input.onButtonPressed(Button.A, function () {
         DigitalPin.P2,
         PingUnit.Centimeters
     )
+
+
+    // finding the distance
     basic.showNumber(distance)
     basic.showIcon(IconNames.Happy)
 })
+
